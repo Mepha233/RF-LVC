@@ -50,5 +50,4 @@ python run_consensus_clustering.py \
   --device cuda
 ```
 
-Without `--encoder_ckpt`, the second command trains an encoder itself, so it can
-also be run on its own.
+Without `--encoder_ckpt`, the second command trains an encoder itself.
