@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Outputs produced by train.py / run_consensus_clustering.py
+results_encoder/
+results_consensus/
+logs/
+
+# Datasets are not distributed with this repository
+datasets/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store

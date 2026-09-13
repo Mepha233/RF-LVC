@@ -1,0 +1,17 @@
+# RF-LVC reference implementation - Python dependencies.
+#
+# These are the exact versions used for the experiments reported in the paper
+# (conda environment "fcacc", Python 3.8.10, PyTorch built against CUDA 11.3).
+#
+# The torch wheel is published on the PyTorch index, not on PyPI:
+#   pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu113
+# For a CPU-only environment install the matching CPU wheel instead, e.g.
+#   pip install torch==1.10.0+cpu --extra-index-url https://download.pytorch.org/whl/cpu
+
+torch==1.10.0+cu113
+numpy==1.24.4
+pandas==2.0.3
+scipy==1.10.1
+scikit-learn==1.3.2
+joblib==1.4.2
+threadpoolctl==3.5.0
